@@ -58,7 +58,7 @@ monikerRange: ">=aps-pdw-2016||=azuresqldb-current||=azure-sqldw-latest||>=sql-s
 |SQL Server data type|ODBC data type|String format for client conversions|  
 |--------------------------|--------------------|------------------------------------------|  
 |Datetime|SQL_TYPE_TIMESTAMP<br /><br /> SQL_TIMESTAMP|'yyyy-mm-dd hh:mm:ss[.999]'<br /><br /> [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] supports up to three fractional second digits for Datetime.|  
-|Smalldatetime|SQL_TYPE_TIMESTAMP<br /><br /> SQL_TIMESTAMP|'yyyy-mm-dd hh:hh:ss'<br /><br /> This data type has an accuracy of one minute. The seconds component will be zero on output and will be rounded by the server on input.|  
+|Smalldatetime|SQL_TYPE_TIMESTAMP<br /><br /> SQL_TIMESTAMP|'yyyy-mm-dd hh:mm:ss'<br /><br /> This data type has an accuracy of one minute. The seconds component will be zero on output and will be rounded by the server on input.|  
 |Date|SQL_TYPE_DATE<br /><br /> SQL_DATE|'yyyy-mm-dd'|  
 |Time|SQL_SS_TIME2|'hh:mm:ss[.9999999]'<br /><br /> Fractional seconds can optionally be specified using up to seven digits.|  
 |Datetime2|SQL_TYPE_TIMESTAMP<br /><br /> SQL_TIMESTAMP|'yyyy-mm-dd hh:mm:ss[.9999999]'<br /><br /> Fractional seconds can optionally be specified using up to seven digits.|  
